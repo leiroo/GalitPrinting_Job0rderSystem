@@ -96,21 +96,21 @@ The prototype addresses these issues by providing:
 | Testing Method    | Manual User Testing             |
 
 
-### **Completed Test Cases**
+### **Sample Test Cases**
 
-| **Test Case ID** | **Scenario**                  | **Expected Result**                                      | **Actual Result**                                            | **Status** |
-|------------------|--------------------------------|----------------------------------------------------------|--------------------------------------------------------------|------------|
-| UAT-01           | Admin Login                    | Admin is successfully redirected to the dashboard.       | Admin successfully logged in and dashboard displayed.        | ✅ Passed  |
-| UAT-02           | Manage Job Order               | Job order is correctly returned and displayed in job order list. | Job order saved and appeared correctly in the job list.       | ✅ Passed  |
-| UAT-03           | Update Job Status              | Job status updates are reflected in real time on the dashboard. | Job status updated and displayed in real time.               | ✅ Passed  |
-| UAT-04           | Inventory Management           | Inventory changes are saved and updated correctly.       | Inventory adjustments saved and reflected accurately.        | ✅ Passed  |
-| UAT-05           | Manage Payments                | Payment records are correctly filtered or displayed according to search criteria. | Payment transactions filtered or displayed accurately according to search criteria. | ✅ Passed  |
-| UAT-06           | Analytics Charts Interactivity | Charts display interactive elements and respond appropriately to interactions. | Charts interactive, accurate data tooltips on hover and click.| ✅ Passed  |
-| UAT-07           | Reports Charts Interactivity   | Reports charts interactively display detailed data upon user interactions. | Report charts respond correctly to interactions and display correct details. | ✅ Passed  |
-| UAT-08           | Responsive Layout              | Layout adapts smoothly and displays correctly across different screen sizes and devices. | Layout properly adapts and displayed correctly on tested devices and screen sizes. | ✅ Passed  |
-| UAT-09           | View Notifications             | Notifications are viewable by Admin without errors.      | Admin successfully viewed notifications.                     | ✅ Passed  |
-| UAT-10           | Sidebar Navigation             | Sidebar navigation links correctly redirect to appropriate system pages without errors. | Sidebar navigation fully functional, all links redirect correctly. | ✅ Passed  |
-| UAT-11           | Admin Logout                   | Admin successfully logs out and returns to the login page.| Admin successfully logged out and redirected to login page.   | ✅ Passed  |
+| **Test Case ID** | **Scenario**                    | **Expected Result**                                            | **Status** |
+|------------------|---------------------------------|---------------------------------------------------------------|------------|
+| UAT-01           | Admin Login                     | Successfully logs in and redirects to dashboard.               | ✅ Passed  |
+| UAT-02           | Manage Job Order                | Job orders saved and correctly displayed.                      | ✅ Passed  |
+| UAT-03           | Update Job Status               | Real-time updates displayed on dashboard.                      | ✅ Passed  |
+| UAT-04           | Inventory Management            | Inventory adjustments correctly reflected.                     | ✅ Passed  |
+| UAT-05           | Manage Payments                 | Payment transactions accurately filtered and displayed.        | ✅ Passed  |
+| UAT-06           | Analytics Charts Interactivity  | Interactive charts accurately display data.                    | ✅ Passed  |
+| UAT-07           | Reports Charts Interactivity    | Reports charts respond accurately to interactions.             | ✅ Passed  |
+| UAT-08           | Responsive Layout               | Layout adapts and displays properly on different devices.      | ✅ Passed  |
+| UAT-09           | View Notifications              | Notifications successfully viewed.                             | ✅ Passed  |
+| UAT-10           | Sidebar Navigation              | Navigation links accurately redirect to intended pages.        | ✅ Passed  |
+| UAT-11           | Admin Logout                    | Successfully logs out and redirects to login page.             | ✅ Passed  |
 
 
 -
