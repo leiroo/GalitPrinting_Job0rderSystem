@@ -85,22 +85,32 @@ The prototype addresses these issues by providing:
 ## 🧪 User Acceptance Testing (UAT)
 
 ### **UAT Environment**
-| **Item**        | **Description**          |
-|-----------------|--------------------------|
-| Device          | Laptop / Android Emulator |
-| OS              | Windows 10, Android 12+   |
-| Tools           | Chrome,       |
-| Testing Method  | Manual UI testing         |
 
-### **Sample Test Cases**
-| **Test Case ID** | **Scenario**            | **Expected Result**           | **Status**   |
-|------------------|-------------------------|-------------------------------|--------------|
-| UAT-01           | View About Section      | Expands and collapses properly | ✅ Passed   |
-| UAT-02           | Navigation via Menu     | Correct pages are displayed    | ✅ Passed   |
-| UAT-03           | Create Job Order (UI)   | Data reflects on screen        | ✅ Passed   |
-| UAT-04           | Responsive Layout       | Adapts to screen size          | ✅ Passed   |
-| UAT-05           | Inventory Overview      | Displays inventory correctly   | ✅ Passed   |
-| UAT-06           | Records Management      | Records visible and accessible | ✅ Passed   |
-| UAT-07           | Dark Mode Toggle        | UI switches to dark mode       | ✅ Passed   |
+| **Item**          | **Description**                 |
+|-------------------|---------------------------------|
+| Device            | Android Phone / Emulator        |
+| OS Version        | Android 12+                     |
+| App Version       | 1.0.0                           |
+| Development Tool  | Flutter                         |
+| Framework         | Flutter SDK 3.x                 |
+| Testing Method    | Manual User Testing             |
+
+
+### **Completed Test Cases**
+
+| **Test Case ID** | **Scenario**                  | **Expected Result**                                      | **Actual Result**                                            | **Status** |
+|------------------|--------------------------------|----------------------------------------------------------|--------------------------------------------------------------|------------|
+| UAT-01           | Admin Login                    | Admin is successfully redirected to the dashboard.       | Admin successfully logged in and dashboard displayed.        | ✅ Passed  |
+| UAT-02           | Manage Job Order               | Job order is correctly returned and displayed in job order list. | Job order saved and appeared correctly in the job list.       | ✅ Passed  |
+| UAT-03           | Update Job Status              | Job status updates are reflected in real time on the dashboard. | Job status updated and displayed in real time.               | ✅ Passed  |
+| UAT-04           | Inventory Management           | Inventory changes are saved and updated correctly.       | Inventory adjustments saved and reflected accurately.        | ✅ Passed  |
+| UAT-05           | Manage Payments                | Payment records are correctly filtered or displayed according to search criteria. | Payment transactions filtered or displayed accurately according to search criteria. | ✅ Passed  |
+| UAT-06           | Analytics Charts Interactivity | Charts display interactive elements and respond appropriately to interactions. | Charts interactive, accurate data tooltips on hover and click.| ✅ Passed  |
+| UAT-07           | Reports Charts Interactivity   | Reports charts interactively display detailed data upon user interactions. | Report charts respond correctly to interactions and display correct details. | ✅ Passed  |
+| UAT-08           | Responsive Layout              | Layout adapts smoothly and displays correctly across different screen sizes and devices. | Layout properly adapts and displayed correctly on tested devices and screen sizes. | ✅ Passed  |
+| UAT-09           | View Notifications             | Notifications are viewable by Admin without errors.      | Admin successfully viewed notifications.                     | ✅ Passed  |
+| UAT-10           | Sidebar Navigation             | Sidebar navigation links correctly redirect to appropriate system pages without errors. | Sidebar navigation fully functional, all links redirect correctly. | ✅ Passed  |
+| UAT-11           | Admin Logout                   | Admin successfully logs out and returns to the login page.| Admin successfully logged out and redirected to login page.   | ✅ Passed  |
+
 
 -
